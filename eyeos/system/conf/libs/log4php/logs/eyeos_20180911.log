@@ -1,0 +1,25 @@
+2018-09-11 16:39:13,224 [DEBUG] fileSystem.FileObjectFactory: FileObjectsFactory initialized successfully
+2018-09-11 16:39:13,224 [ERROR] bootstrap.Bootstrap: Cannot load service "MMap"
+2018-09-11 16:39:13,224 [DEBUG] bootstrap.Bootstrap: EyeErrorException: Declaration of MMapAPI::getInstance() should be compatible with Kernel::getInstance($class)
+	/eyeos/system/kernel/services/MMap/implementations/MMapAPI.php (line 38) 
+	/eyeos/system/kernel/services/MMap/implementations/MMapAPI.php (line 38) __lib_exceptions_error_handler(2048, "Declaration of MMapAPI::getInstance() sh"[..], "C:\xampp\htdocs\eyeos\eyeos\system\kerne"[..], 38, array(1))
+	/eyeos/system/bootstrap/Bootstrap.php (line 81) require_once("C:\xampp\htdocs\eyeos\eyeos\system\kerne"[..])
+	/eyeos/system/bootstrap/Bootstrap.php (line 151) load("./system/kernel/services/MMap//implement"[..])
+	/eyeos/system/bootstrap/Bootstrap.php (line 169) loadService("MMap")
+	/eyeos/system/bootstrap/Bootstrap.php (line 71) loadServices(array(3))
+
+2018-09-11 16:39:13,224 [FATAL] root: Uncaught exception detected in the root page! It is likely to come from the bootstrap.
+2018-09-11 16:39:13,224 [FATAL] root: EyeBootstrapException: Cannot load service "MMap".
+	/eyeos/system/bootstrap/Bootstrap.php (line 160) 
+	/eyeos/system/bootstrap/Bootstrap.php (line 169) loadService("MMap")
+	/eyeos/system/bootstrap/Bootstrap.php (line 71) loadServices(array(3))
+
+Caused by:
+EyeErrorException: Declaration of MMapAPI::getInstance() should be compatible with Kernel::getInstance($class)
+	/eyeos/system/kernel/services/MMap/implementations/MMapAPI.php (line 38) 
+	/eyeos/system/kernel/services/MMap/implementations/MMapAPI.php (line 38) __lib_exceptions_error_handler(2048, "Declaration of MMapAPI::getInstance() sh"[..], "C:\xampp\htdocs\eyeos\eyeos\system\kerne"[..], 38, array(1))
+	/eyeos/system/bootstrap/Bootstrap.php (line 81) require_once("C:\xampp\htdocs\eyeos\eyeos\system\kerne"[..])
+	/eyeos/system/bootstrap/Bootstrap.php (line 151) load("./system/kernel/services/MMap//implement"[..])
+	/eyeos/system/bootstrap/Bootstrap.php (line 169) loadService("MMap")
+	/eyeos/system/bootstrap/Bootstrap.php (line 71) loadServices(array(3))
+
