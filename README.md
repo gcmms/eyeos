@@ -1,4 +1,4 @@
-# eyeos
+# Eyeos
 eyeOS é um sistema para escritórios, de código aberto, gratuito e multi-plataforma que utiliza os conceitos da Cloud computing, baseado na área de trabalho de um sistema operacional. É licenciado sobre a licença GPL
 
 # 💡 Ideia 
