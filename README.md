@@ -1,6 +1,8 @@
 # 🇧🇷 Portgues
 #EyeOS
-eyeOS é um sistema para escritórios, de código aberto, gratuito e multi-plataforma que utiliza os conceitos da Cloud computing, baseado na área de trabalho de um sistema operacional. É licenciado sobre a licença GPL
+O eyeOS é um desktop da web que segue o conceito de computação em nuvem que busca permitir a colaboração e a comunicação entre os usuários. É principalmente escrito em PHP, XML e JavaScript. É uma plataforma de aplicativos de nuvem privada com uma interface de desktop baseada na web. Comumente chamado de desktop em nuvem por causa de sua interface de usuário única, o eyeOS oferece uma área de trabalho inteira a partir da nuvem com gerenciamento de arquivos, ferramentas de informações de gerenciamento pessoal, ferramentas colaborativas e com a integração dos aplicativos do cliente.
+É de código aberto, gratuito e multi-plataforma que utiliza os conceitos da Cloud computing, baseado na área de trabalho de um sistema operacional. É licenciado sobre a licença GPL
+A versão 2.5 é a ultima versão feita sob codigo aberto e é nela que vamos nos basear 
 
 # 💡 Ideia 
 A ideia é reviver esse projeto que ficou esquecido no passado.
@@ -53,8 +55,10 @@ Fonte: https://pt.wikipedia.org/wiki/EyeOS
 
 # 🇺🇸 English
 
+
 #EyeOS
-eyeOS is a free, cross-platform open source office system that uses Cloud computing concepts based on the desktop of an operating system. Is licensed under the GPL license
+EyeOS is a web desktop following the cloud computing concept that seeks to enable collaboration and communication among users. It is mainly written in PHP, XML, and JavaScript. It is a private-cloud application platform with a web-based desktop interface. Commonly called a cloud desktop because of its unique user interface, eyeOS delivers a whole desktop from the cloud with file management, personal management information tools, collaborative tools and with the integration of the client’s applications.
+Cross-platform open source office system that uses Cloud computing concepts based on the desktop of an operating system. Is licensed under the GPL license
 
 
 # 💡 Idea
