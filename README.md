@@ -1,6 +1,14 @@
-Portgues
+<<<<<<< HEAD
+# eyeOS
+eyeOS v2.5 -- the last release under an open source license
+
+eyeOS is a web desktop following the cloud computing concept that seeks to enable collaboration and communication among users. It is mainly written in PHP, XML, and JavaScript. It is a private-cloud application platform with a web-based desktop interface. Commonly called a cloud desktop because of its unique user interface, eyeOS delivers a whole desktop from the cloud with file management, personal management information tools, collaborative tools and with the integration of the client’s applications.
+=======
+# 🇧🇷 Portgues
 #EyeOS
-eyeOS é um sistema para escritórios, de código aberto, gratuito e multi-plataforma que utiliza os conceitos da Cloud computing, baseado na área de trabalho de um sistema operacional. É licenciado sobre a licença GPL
+O eyeOS é um desktop da web que segue o conceito de computação em nuvem que busca permitir a colaboração e a comunicação entre os usuários. É principalmente escrito em PHP, XML e JavaScript. É uma plataforma de aplicativos de nuvem privada com uma interface de desktop baseada na web. Comumente chamado de desktop em nuvem por causa de sua interface de usuário única, o eyeOS oferece uma área de trabalho inteira a partir da nuvem com gerenciamento de arquivos, ferramentas de informações de gerenciamento pessoal, ferramentas colaborativas e com a integração dos aplicativos do cliente.
+É de código aberto, gratuito e multi-plataforma que utiliza os conceitos da Cloud computing, baseado na área de trabalho de um sistema operacional. É licenciado sobre a licença GPL
+A versão 2.5 é a ultima versão feita sob codigo aberto e é nela que vamos nos basear 
 
 # 💡 Ideia 
 A ideia é reviver esse projeto que ficou esquecido no passado.
@@ -9,6 +17,17 @@ Imagina só, você deixa seu computador em casa e acessa um ambiente externo e c
 Programar?
 Isso mesmo, ele pode ser usado para te ajudar a programar para web, para escritorios, pode ter os emails da empresa e etc !
 
+# 🚧 Ambiente de Desenvolvimento Minimo
+1) [Xaamp](https://www.apachefriends.org/pt_br/index.html) - O XAMPP é completamente gratuito, de fácil de instalar a distribuição Apache, contendo MySQL, PHP e Perl.
+2) [Sublime Text](https://www.sublimetext.com/) - O Sublime Text é um editor de texto sofisticado para código
+3) [MySQL Workbench] (https://www.mysql.com/products/workbench/) - O MySQL Workbench é uma ferramenta visual unificada para arquitetos de banco de dados, desenvolvedores e DBAs
+*Basicamente somente isso para criar o ambiente de desenvolvimento. Mas claro você pode usar o que mais te agradar 😉
+
+# 🔍 Requerimentos da Instalação do EyeOS
+1) PHP Version:	5.6.37 
+2) MySQL ou MySQL Lite
+3) 100Mb de espaço livre
+4) Uma tabela dedicada no MySQL ou MySQL Lite
 
 # 💻 Trabalho :
 Temos muito a fazer, o EYE OS não está atualizado em nossa ultima versão de PHP, por isso sua instalaçao é complicada. Precisamos primeramente por ele para funcionar, atualizar o codigo PHP dele para a versão 7. Dessa forma ele poderá rodar em servidores modernos e terá vida
@@ -40,10 +59,12 @@ Fonte: https://pt.wikipedia.org/wiki/EyeOS
 
 
 
-#English
+# 🇺🇸 English
+
 
 #EyeOS
-eyeOS is a free, cross-platform open source office system that uses Cloud computing concepts based on the desktop of an operating system. Is licensed under the GPL license
+EyeOS is a web desktop following the cloud computing concept that seeks to enable collaboration and communication among users. It is mainly written in PHP, XML, and JavaScript. It is a private-cloud application platform with a web-based desktop interface. Commonly called a cloud desktop because of its unique user interface, eyeOS delivers a whole desktop from the cloud with file management, personal management information tools, collaborative tools and with the integration of the client’s applications.
+Cross-platform open source office system that uses Cloud computing concepts based on the desktop of an operating system. Is licensed under the GPL license
 
 
 # 💡 Idea
@@ -80,3 +101,4 @@ For the administration branch, eyeOs allows the communication between the users 
 Already in schools, the use of eyeOS-based applications allows the integration and exchange of files between teachers and students, allowing differences in the work area of the students according to age, and in the work area of the teachers, these have availability of creation of documents to be shared with students. 
 
 Source: https://en.wikipedia.org/wiki/EyeOS
+>>>>>>> eda9cfad78ee36a026a4dd047adc7f9161845d73
