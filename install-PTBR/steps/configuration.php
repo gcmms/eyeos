@@ -1,21 +1,21 @@
 <?php
 
 function toptext() {
-    return 'Configure your eyeOS';
+    return 'Configure a Instalação';
 }
 
 function getContent() {
     if(isset($_POST['mysqlhost'])) {
         $link = mysql_connect($_POST['mysqlhost'], $_POST['mysqluser'], $_POST['mysqlpass']);
         if(!$link) {
-            echo '<p>Unable to connect to databse: '.mysql_error().'</p>';
-            echo '<p><a href="index.php?step=configuration">Click here to go back</a></p>';
+            echo '<p>Não foi possivel conectar com o Banco de Dados: '.mysql_error().'</p>';
+            echo '<p><a href="index.php?step=configuration">Voltar</a></p>';
 			return;
         }
 
         if(!mysql_select_db($_POST['mysqldb'], $link)) {
-            echo '<p>Unable to select databse: '.mysql_error().'</p>';
-            echo '<p><a href="index.php?step=configuration">Click here to go back</a></p>';
+            echo '<p>Não foi possivel selecionaro o banco de dados: '.mysql_error().'</p>';
+            echo '<p><a href="index.php?step=configuration">Voltar</a></p>';
 			return;
         }
 
@@ -70,14 +70,14 @@ function getContent() {
 function checkandsend() {
     if(document.getElementById('eyerootpass').value != "") {
         document.getElementById('forminfo').submit();
-	document.getElementById('configcontent').innerHTML = '<center><p>Installing eyeOS...</p><img style="margin-top:40px" src="ajax-loader.gif" /></center>';
+	document.getElementById('configcontent').innerHTML = '<center><p>Instalando o EyeOS...</p><img style="margin-top:40px" src="ajax-loader.gif" /></center>';
     } else {
         alert('eyeOS root password cannot be empty');
     }
 }
 </script>
 <div id="configcontent">
-    <center>Database configuration</center>
+    <center>Configurando o Banco de Dados</center>
     <form id="forminfo" action="index.php?step=configuration" method="post">
     <table style="margin-top:20px;width:600px;">
         <tr>
@@ -89,24 +89,24 @@ function checkandsend() {
             <td><input name="mysqldb" type="text" class="box" value="eyeos" /></td>
         </tr>
         <tr>
-            <td style="padding-right:10px;" align="right">MySQL Username:</td>
+            <td style="padding-right:10px;" align="right">Usuario do MySQL:</td>
             <td><input name="mysqluser" type="text" class="box" value="" /></td>
         </tr>
         <tr>
-            <td style="padding-right:10px;" align="right">MySQL Password:</td>
+            <td style="padding-right:10px;" align="right">Senha do MySQL:</td>
             <td><input name="mysqlpass" type="password" class="box" value="" /></td>
         </tr>
     </table>
     <br />
-    <center>EyeOS configuration</center>
+    <center>Configuração do EyeOS</center>
     <table style="margin-top:20px;width:600px;">
         <tr>
-            <td style="padding-right:10px;" align="right">eyeOS root password:</td>
+            <td style="padding-right:10px;" align="right">Senha de ROOT do EyeOS:</td>
             <td><input id="eyerootpass" name="eyerootpass" type="text" class="box" value="" /></td>
         </tr>
     </table>
     <br />
-    <p id="sendbtn"><center><a href="javascript:checkandsend();"><div><img src="next.png" border="0" /></div><div style="margin-top:20px;">Continue with the installation</div></a></center></p>
+    <p id="sendbtn"><center><a href="javascript:checkandsend();"><div><img src="next.png" border="0" /></div><div style="margin-top:20px;">Instalar</div></a></center></p>
     </form>
 </div>
 <?php

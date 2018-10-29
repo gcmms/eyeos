@@ -1,16 +1,15 @@
 <?php
 
 function toptext() {
-    return 'Welcome to eyeOS installation';
+    return 'Bem Vindo ao EyeOS';
 }
 
 function getContent() {
-    echo '<center><h2 class="bigtitle">eyeOS 2 Installation</h2></center>';
+    echo '<center><h2 class="bigtitle">Instalando EyeOS</h2></center>';
     echo '<div class="explaintext">
-        <p>During this installation, you will be asked to answer some configuration questions about your web server and prefered settings.</p>
-        <p>You will need some knowledge about your server, and root access if possible. If you are in a shared hosting, you may be able
-        to finish this installation, but your eyeOS won\'t have all the features. Please, press install when ready.</p>
-        <p style="margin-top:40px;"><center><a href="index.php?step=requirements"><div><img border="0" src="install.png" /></div><div style="margin-top:20px;">Install eyeOS 2 on my server</div></a></center></p>
+        <p>Durante esta instalação, você será solicitado a responder algumas perguntas de configuração sobre seu servidor da Web e configurações preferenciais.</p>
+        <p>Você precisará de algum conhecimento sobre seu servidor e acesso root, se possível. Se você estiver em uma hospedagem compartilhada, poderá concluir essa instalação, mas seu eyeOS não terá todos os recursos. Por favor, pressione instalar quando estiver pronto.</p>
+        <p style="margin-top:40px;"><center><a href="index.php?step=requirements"><div><img border="0" src="install.png" /></div><div style="margin-top:20px;">Instalar EyeOS </div></a></center></p>
     </div>';
 }
 

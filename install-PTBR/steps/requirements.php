@@ -1,16 +1,16 @@
 <?php
 function toptext() {
-    return 'Checking for eyeOS requirements';
+    return 'Verifique os requisitos de instalação ';
 }
 
 function getContent() {
     ?>
 <div class="explaintext">
-    <p class="bigtitle">System requirements</p>
+    <p class="bigtitle">Requerimentos do Sistemas</p>
 </div>
 <table style="width:600px;">
         <?php
-            echo '<tr><td style="padding-right:10px;" align="right">PHP Version:</td>';
+            echo '<tr><td style="padding-right:10px;" align="right">Versão do PHP</td>';
             if (strnatcmp(phpversion(),'5.2.0') >= 0) {
                 echo '<td class="textok" style="padding-left:10px;">'.phpversion().' <img style="margin-left:10px;" img src="ok.png" /></td></tr>';
             } else {
@@ -279,11 +279,9 @@ function getContent() {
         ?>
 </table>
 
-<p>You are free to continue with the installation even if there are some missing requirements in your server. However,
-if you want a full experience in your eyeOS, it is strongly recommended to have all the requirements installed
-before proceeding.</p>
-<p>If you proceed with any element in red or orange, you can expect random failures in your eyeOS and data loss.</p>
-<p><center><a href="index.php?step=configuration"><div><img src="next.png" border="0" /></div><div style="margin-top:20px;">Continue with the installation</div></a></center></p>
+<p>Você está livre para continuar com a instalação, mesmo se houver alguns requisitos ausentes no seu servidor. No entanto, se você quiser uma experiência completa em seu eyeOS, é altamente recomendável ter todos os requisitos instalados antes de prosseguir.</p>
+<p>Se você continuar com qualquer elemento em vermelho ou laranja, poderá esperar falhas aleatórias em seu eyeOS e perda de dados.</p>
+<p><center><a href="index.php?step=configuration"><div><img src="next.png" border="0" /></div><div style="margin-top:20px;">Continue com a instalação</div></a></center></p>
 <?php
 }
 
