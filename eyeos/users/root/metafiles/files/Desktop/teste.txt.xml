@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<meta>
+  <entry key="owner">root</entry>
+  <entry key="group">root</entry>
+  <entry key="creationTime">1541075544</entry>
+  <entry key="modificationTime">1541075544</entry>
+  <entry key="permissions">-rw-------</entry>
+  <entry key="activity" type="array">
+    <entry key="0" type="array">
+      <entry key="type">creation</entry>
+      <entry key="by">eyeID_EyeosUser_root</entry>
+      <entry key="time">1541075544</entry>
+    </entry>
+  </entry>
+</meta>
