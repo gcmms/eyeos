@@ -14,6 +14,8 @@ Isso mesmo, ele pode ser usado para te ajudar a programar para web, para escrito
 # 🚧 Ambiente de Desenvolvimento Minimo
 1) [Xaamp](https://www.apachefriends.org/pt_br/index.html) - O XAMPP é completamente gratuito, de fácil de instalar a distribuição Apache, contendo MySQL, PHP e Perl.
 2) [Sublime Text](https://www.sublimetext.com/) - O Sublime Text é um editor de texto sofisticado para código
+*[Visual Studio Code](https://code.visualstudio.com/download) - Como opcional você pode usar o VS Code 
+*[PHP Storm](https://www.jetbrains.com/phpstorm/) - Uma outra opção muito recomendada porem paga 
 3) [MySQL Workbench] (https://www.mysql.com/products/workbench/) - O MySQL Workbench é uma ferramenta visual unificada para arquitetos de banco de dados, desenvolvedores e DBAs
 *Basicamente somente isso para criar o ambiente de desenvolvimento. Mas claro você pode usar o que mais te agradar 😉
 
@@ -67,6 +69,14 @@ EYE OS still has a lot of market, although the idea of ​​having an "OS" in y
 Just imagine, you leave your computer at home and access an external environment and get program?
 Schedule?
 That's right, it can be used to help you plan for the web, for desktops, you can have company emails and etc!
+
+# 🚧 Ambiente de Desenvolvimento Minimo
+1) [Xaamp](https://www.apachefriends.org/pt_br/index.html) - XAMPP is completely free, easy to install Apache distribution, containing MySQL, PHP and Perl.
+2) [Sublime Text](https://www.sublimetext.com/) - Sublime Text is a sophisticated text editor for code.
+*[Visual Studio Code](https://code.visualstudio.com/download) - As an option you can use VS Code
+*[PHP Storm](https://www.jetbrains.com/phpstorm/) - Another highly recommended but paid option
+3) [MySQL Workbench] (https://www.mysql.com/products/workbench/) - MySQL Workbench is a unified visual tool for database architects, developers, and DBAs.
+*Basically just that to create the development environment. But of course you can use whatever suits you best 😉
 
 # 💻 Work :
 
